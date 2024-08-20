@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { SimpleForm } from './02-useEffect/SimpleForm';
-// import GiftExpertApp from './Components/GiftExpertApp';
+// import { SimpleForm } from './02-useEffect/SimpleForm';
+import GiftExpertApp from './Components/GiftExpertApp';
 // import AddCategory from './Components/AddCategory';
 // import { CounterApp } from './01-useState/CounterApp';
 import './styles.css';
@@ -10,6 +10,6 @@ import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-    <SimpleForm />
+    <GiftExpertApp />
   // {/* </React.StrictMode>, */}
 )
